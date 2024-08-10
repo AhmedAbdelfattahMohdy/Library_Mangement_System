@@ -17,4 +17,15 @@ public class BookService {
     public List<Book> getAllBooks() {
         return bookRepository.findAll();
     }
+
+    public Book getBookByID(Long id) {
+        return bookRepository.findById(id).get();
+        // .orElseThrow(
+        // () -> new ResourceNotFoundException("Book not found")
+        // );
+    }
+
+    public Book addBook(Book book) {
+        return bookRepository.save(book);
+    }
 }
