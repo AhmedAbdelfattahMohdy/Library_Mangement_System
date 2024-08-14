@@ -1,7 +1,5 @@
 # 📚 Library Management System
 
-![Library Management System](https://your-image-url-here)
-
 A comprehensive Library Management System built with Java, Spring Boot, and MySQL to manage a library's catalog of books, patrons, and borrowing records. It offers a RESTful API that allows CRUD operations on the library's resources.
 
 ## 🚀 Features
